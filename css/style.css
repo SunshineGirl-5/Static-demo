@@ -27,21 +27,23 @@ body{background:#fff url("../images/body_bg.png") repeat-x;}
 
 #header{width:960px;height: 100px;margin: 0 auto;background: url("../images/header_bg.png") no-repeat 0 1px;position: relative;}
 .header_left{width: 260px;height: 100px;background: url("../images/shopping_bg.png") no-repeat;position: relative;}
-.header_left p{padding-top: 18px;padding-left:84px;font-size: 20px;color: #fff;font-family: "Arial";position: relative;}
+.header_left p{padding-top: 26px;padding-left:84px;font-size: 20px;color: #fff;font-family: "Arial";position: relative;}
 .header_left a{width:114px; height:23px;padding-left:16px;background: url("../images/shopping_bg.png") no-repeat 0 -100px;
         position: absolute;font-size: 15px;color: #ffc200;font-family: "Arial";line-height: 23px;font-weight: bold;
         top: 64px;margin-left: 104px;}
 #header h1{width: 238px;margin: 0 auto;position: absolute;top: 0px;
         left: 50%;margin-left: -119px;}
 
-#nav{width: 960px;height: 44px;margin: 0 auto;}
-#nav li{ float:left; height:28px; margin-right:2px;}
-#nav a{float:left; height:28px; text-decoration:none; color:#fff; font-size:15px; font-family:Arial; line-height:28px; cursor:pointer;background: url("../images/nav_active_bg.png") no-repeat 0 -28px;}
-#nav strong{float:left; height:28px; font-weight:normal; background:url(../images/nav_active_bg.png) no-repeat;}
-#nav span{float: left;padding: 0 14px;margin:0 2px;line-height: 28px;background: url("../images/nav_active_bg.png") repeat-x 0 -56px;}
+#nav{width: 960px;height: 44px;margin: 0 auto;margin-top: 8px;}
+#nav li{float: left;height: 28px;margin-right: 4px;}
+#nav a{float: left;height: 28px;text-decoration: none;color: #fff;font-size: 15px;font-family: Arial;line-height:28px;}
+#nav strong{float:left; height:26px; font-weight:normal;}
+#nav span{float: left;padding:0 16px;line-height: 28px;}
 
+#nav a:hover,#nav .active{background: url("../images/nav_active_bg.png") repeat-x 0 -56px;}
+#nav a:hover strong,#nav .active strong{background: url("../images/nav_active_bg.png") no-repeat;}
+#nav a:hover span,#nav .active span{background: url("../images/nav_active_bg.png") no-repeat right -28px;}
 
-#nav a:hover span{color: #fff;}
 
 #header{}
 #nav{}
